@@ -5,12 +5,12 @@
 const title = 'Stop last productive timer';
 
 // You can find it in Accounts & Settings -> API access -> Generate new token (READ / WRITE)
-const API_KEY = await env('PRODUCTIVE_API_KEY', ` Productive API key`);
+const API_KEY = await env('PRODUCTIVE_API_KEY', 'Productive API key');
 
 // You can find it in Accounts & Settings -> API access -> Organization ID
 const ORGANIZATION_ID = await env(
   'PRODUCTIVE_ORGANIZATION_ID',
-  `Productive Organization ID`
+  'Productive Organization ID'
 );
 
 // You can find it by going to Accounts & Settings -> Your Name, then look in the URL bar https://app.productive.io/{ORGANIZATION-ID}-{ORGANIZATION-NAME}/people/{PERSON_ID}/overview
